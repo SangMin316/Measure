@@ -39,3 +39,14 @@ Second, To demonstrate the performance of the feature extractor, we train a tran
 ```bash
 python FineTuning.py
 ```
+
+## Acknowledgement
+The code is inspired by prior awesome works:
+
+[SleePyCo: Automatic sleep scoring with feature pyramid and contrastive learning
+](https://www.sciencedirect.com/science/article/pii/S0957417423030531) (Expert Systems with Applications 2024)
+
+[MVEB: Self-Supervised Learning With Multi-View Entropy Bottleneck
+](https://ieeexplore.ieee.org/document/10477543) (Transactions on Pattern Analysis and Machine Intelligence 2024)
+
+
