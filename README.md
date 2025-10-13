@@ -6,10 +6,12 @@ Comparison between (a) sufficient representation and (b) minimal sufficient repr
 
 
 ## Overall framework
-![Overall framework](./assets/fig2.png)
+![Overall framework](./assets/fig2.pdf)
 
 ## Effectiveness
+![Comparison](./assets/tab1.png)
 
+![Feature visualization](./assets/fig3.png)
 
 ## Environment Setup
 * Python 3.9
