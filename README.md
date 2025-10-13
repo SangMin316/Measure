@@ -10,10 +10,10 @@ Measure
 
 
 ## Environment Setup
-\item Python 3.9
-\item cuda 12.1
-\item pytorch 2.31
-\item Required libraries are listed in requirements.txt.
+* Python 3.9
+* Cuda 12.1
+* Pytorch 2.31
+* Required libraries are listed in requirements.txt.
 
 ```bash
 pip install -r requirements.txt
