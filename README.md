@@ -14,8 +14,9 @@ Comparison
 ![Comparison](./assets/tab1.png)
 
 Feature visualization
-![Feature visualization](./assets/fig3.png)
-
+<p align="center">
+  <img src="./assets/fig3.png" width="500" alt="Feature visualization">
+</p>
 ## Environment Setup
 * Python 3.9
 * Cuda 12.1
