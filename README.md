@@ -6,7 +6,9 @@ Comparison between (a) sufficient representation and (b) minimal sufficient repr
 
 
 ## Overall framework
-Measure
+![Overall framework](./assets/fig2.png)
+
+## Effectiveness
 
 
 ## Environment Setup
