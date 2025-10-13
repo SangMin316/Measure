@@ -20,4 +20,9 @@ pip install -r requirements.txt
 ```
 
 ## Data Preprosessing
-Download the [SleepEDF20](https://www.physionet.org/content/sleep-edfx/1.0.0/), and [MASS3](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/9MYUCS)
+Download the [SleepEDF20](https://www.physionet.org/content/sleep-edfx/1.0.0/), and [MASS3](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/9MYUCS) and put them the data dir.
+
+Convert the data to .npz format
+```bash
+python Preprocessing.py
+```
