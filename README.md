@@ -6,7 +6,8 @@ Comparison between (a) sufficient representation and (b) minimal sufficient repr
 
 
 ## Overall framework
-![Overall framework](./assets/fig2.pdf)
+Overall framework
+![Overall framework](./assets/fig2.png)
 
 ## Effectiveness
 Comparison
