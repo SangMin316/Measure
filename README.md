@@ -22,7 +22,20 @@ pip install -r requirements.txt
 ## Data Preprosessing
 Download the [SleepEDF20](https://www.physionet.org/content/sleep-edfx/1.0.0/), and [MASS3](https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/9MYUCS) and put them the data dir.
 
-Convert the data to .npz format
+Convert the data to .npz format.
 ```bash
 python Preprocessing.py
+```
+## Run
+Our model consist of pretrain and fintuing part.
+### Pretrain
+First, model's feature extractor learn the domain-invarint feature via multi-scale minimal sufficient learning.
+```bash
+python Pretrain.py
+```
+
+### Pretrain
+Second, To demonstrate the performance of the feature extractor, we train a transformer-based classifier while keeping the parameters of the feature extractor fixed. The transformer-based classifier follows the model proposed in prior work [SleePyCo](https://www.sciencedirect.com/science/article/pii/S0957417423030531) for sleep scoring.
+```bash
+python FineTuning.py
 ```
