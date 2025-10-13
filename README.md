@@ -43,7 +43,8 @@ python Pretrain.py
 ```
 
 ### Pretrain
-Second, To demonstrate the performance of the feature extractor, we train a transformer-based classifier while keeping the parameters of the feature extractor fixed. The transformer-based classifier follows the model proposed in prior work [SleePyCo](https://www.sciencedirect.com/science/article/pii/S0957417423030531) for sleep scoring.
+Second, To demonstrate the performance of the feature extractor, we train a transformer-based classifier while keeping the parameters of the feature extractor fixed. The transformer-based classifier follows the model proposed in prior work [SleePyCo](https://www.sciencedirect.com/science/article/pii/S0957417423030531) for sleep scoring. You can eddit the config .json file batch size = 1024, seq_len = 1, mode = pretrain
+
 ```bash
 python FineTuning.py
 ```
