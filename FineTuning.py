@@ -306,9 +306,7 @@ def main():
     kappa_list = []
 
 
-    # for fold in range(1, config['dataset']['num_splits'] + 1):
-    # for fold in range(1,2):
-    for fold in [31,30,29,28,27,26,25,24,23,22,21]:
+    for fold in range(1, config['dataset']['num_splits'] + 1):
         trainer = OneFoldTrainer(args, fold, config)
         y_true, y_pred = trainer.run()
         Y_true = np.concatenate([Y_true, y_true])
