@@ -23,7 +23,7 @@ class EEGDataLoader(Dataset):
             subject_idx.remove(78)
             subject_idx.remove(79)
 
-            kf = KFold(n_splits=10, shuffle=True, random_state=42)
+            kf = KFold(n_splits=10, shuffle=True, random_state=123456)
             cross_val_idx_list = []
             for train_idx, test_val_idx in kf.split(subject_idx):
                 random.shuffle(train_idx)
