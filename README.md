@@ -1,4 +1,4 @@
-# Multi-scale minimal sufficient representation learning for domain generalization in sleep staging
+# MEASURE: Multi-Scale Representation Learning for Cross-Subject Sleep Staging
 
 ## Motivation
 ![motivation](./assets/fig1.png)
