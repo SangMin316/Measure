@@ -185,8 +185,8 @@ def main():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--seed', type=int, default=316, help='random seed')
     parser.add_argument('--gpu', type=str, default="2", help='gpu id')
-    parser.add_argument('--config', type=str, default = './MSMS/Config_SleepEDF20.json' ,help='config file path')
-    parser.add_argument('--config', type=str, default = './MSMS/Config_MASS.json' ,help='config file path')
+    parser.add_argument('--config', type=str, default = './Config_SleepEDF20_pre.json' ,help='config file path')
+    # parser.add_argument('--config', type=str, default = './Config_MASS_pre.json' ,help='config file path')
 
     args = parser.parse_args()
 
