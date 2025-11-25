@@ -9,9 +9,6 @@
 Overall framework
 ![Overall framework](./assets/fig2.png)
 
-## Effectiveness
-Comparison
-![Comparison](./assets/tab1.png)
 
 Feature visualization
 <p align="center">
