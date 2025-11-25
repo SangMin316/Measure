@@ -10,11 +10,6 @@ Overall framework
 ![Overall framework](./assets/fig2.png)
 
 
-Feature visualization
-<p align="center">
-  <img src="./assets/fig3.png" width="500" alt="Feature visualization">
-</p>
-
 ## Environment Setup
 * Python 3.9
 * Cuda 12.1
