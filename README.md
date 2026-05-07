@@ -2,6 +2,7 @@
 
 ## Motivation
 ![motivation](./assets/f1.png)
+
 Illustration of \emph{superfluous domain information} and our motivation.
 (a) Standard contrastive learning maximizes the similarity between $\boldsymbol{z}_i$ and $\boldsymbol{z}_p$ (green region), where $\boldsymbol{z}_i$ and $\boldsymbol{z}_p$ denote the features of the $i$-th sample $\boldsymbol{v}_i$ and its positive sample $\boldsymbol{v}_p$, respectively. However, it may also retain superfluous information $I(\boldsymbol{z}_i; \boldsymbol{v}_i | \boldsymbol{v}_p)$ (orange region)~\citep{tsai2021self}. The overlap between this superfluous information and domain-relevant information $I(\boldsymbol{z}_i; d_i)$ (blue region), which we term \emph{superfluous domain information} $I(\boldsymbol{z}_i; d_i | \boldsymbol{v}_p)$ (red region), induces domain bias, where $D$ denotes domain factors and $d_i$ is the domain label of $\boldsymbol{v}_i$. (b) Minimal sufficient representation learning reduces superfluous information, but may also discard useful task-relevant cues due to non-selective compression. (c) Our method selectively suppresses superfluous domain information, thereby mitigating domain bias while preserving useful task-relevant information. (d) Quantitative comparison on SleepEDF-20. While sufficient learning retains the highest amount of superfluous and domain-related information and our method achieves lower domain-related information while maintaining the best classification accuracy.
 
